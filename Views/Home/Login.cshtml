@@ -1,0 +1,31 @@
+﻿@{
+        Layout = null;
+    }
+
+
+    <html>
+        <head>
+             <link rel="stylesheet" href="~/css/login.css" />
+        </head>
+        <body>
+            <h1 class="title">Login</h1>
+              <form method="post">
+                <div class="login_form">
+                    <label class="login_label">Email</label><br />
+                    <input required class="login_input" type="email" name="email" /><br />
+                    <label class="login_label">Password</label><br />
+                    <input required class="login_input" type="password" name="password"/><br />
+                    <label class="login_label">Role</label><br />
+                    <select required class="login_drop_down" name="role"><br />
+                        <option value="admin">admin</option>
+                        <option value="customer">customer</option>
+                        
+                    </select><br /><br />
+                    <input class="login_button" type="submit" value="Login" /><br/><br/>
+                </div>
+                <a asp-action="Registerpage"   class="btn btn-info" id=regi>Register</a>
+            </form> <br />
+            <p class="error_message">@ViewData["Message"]</p>
+      </body>
+
+    </html>

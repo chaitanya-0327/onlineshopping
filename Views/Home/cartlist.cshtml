@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<Foodcore.Models.Cart>
+<div class="row">
+@if(Model != null)
+{
+ @foreach(var item in Model)
+{
+    <div class="col-sm-4">   
+
+        <div class="card">
+  
+  <div class="container">
+ <h4> @item.Itemid</h4>
+<p ><span class="place">cartid</span> : @item.Cartid</p>
+ 
+ <p ><span class="place">Email</span> : @item.Email</p>
+ </div>         
+  </div>
+   </div>
+}
+}
+         
+ </div>
+ 

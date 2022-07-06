@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Foodcore.Models.Product>
+
+    <form method = "post">
+
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+
+        <div class="row">
+
+
+
+            <div class="col-sm-4">   
+
+                <div class="card">
+                    <img src="~/@item.Images" width=40% height=30%>
+                    <div class="container">
+                        <h4>@item.Productname</h4>
+                        <p><span class="place">product id</span> : @item.Productid</p>
+
+                        <p><span class="place">price</span> : @item.Price</p>
+                        <p ><span class="place">product description</span> : @item.Productdesc</p>
+                        
+                    <label class="place">Enter Feedback</label>
+                    <textarea type = "text" name = "feedbackInput" rows="3" cols="26" style="border-radius:10px;" placeholder = "Please enter your valuable feedback"> </textarea>
+                       <input type = "submit" value = "Submit" class="btn  btn-default"/>
+                         <a asp-action="myorders"  asp-route-myitemid=@item.Productid class="btn btn-info">BUY</a>
+                    </div>         
+                </div>
+            </div>
+
+
+
+        </div>
+
+        
+
+              
+    }
+}
+
+     
+
+        </form>
+         @ViewData["f"]
+
+ 

@@ -1,0 +1,54 @@
+﻿@model Foodcore.Models.Product
+
+    
+<html>
+    
+           <body>
+               <h1 class="page_heading">Add products</h1>
+        <form class="add_form_body" method="post">
+           
+            <div class="add_form"><br />
+             <label class="add_label">productid</label><br />
+             <input type="text" asp-for="Productid" placeholder="Enter productid"  class="add_input" /><br />
+              <span asp-validation-for=Productid></span><br />
+            <label class="add_label">productname</label><br />
+            <input type="text"  required asp-for="Productname" placeholder="product name" class="add_input" /><br />
+            
+             <span asp-validation-for=Productname></span> <br />
+            <label class="add_label">product description</label><br />
+            <input type="text" asp-for="Productdesc" placeholder="product description" class="add_input"/><br />
+            <span asp-validation-for=Productdesc></span><br />
+            <label class="add_label">category</label><br />
+            <select name="products" id="product"><br />
+                <option value="electronics">electronics</option>
+                <option value="kitchen">kitchen</option>
+                 <option value="home">home</option>
+               <option value="fashion">fashion</option>
+            </select>
+            <label class="add_label">price</label><br />
+            <input type="text" asp-for="Price" placeholder="price" class="add_input"/><br />
+            <span asp-validation-for=Price></span><br />
+
+            <div class="row"><br />
+                <div class="col-md-10"><br />
+                    @using(Html.BeginForm("addproducts","home",FormMethod.Post,new { @enctype="multipart/form.data"}))
+                    {
+                        <input type="file"/>
+                        <br />
+                        <input type="submit" value="upload"/><br/>
+                    }
+                </div><br/>
+            </div><br/>
+           
+            <div><br />
+            <input class="add_button" type="submit" value="add"/><br />
+            </div>
+
+            </div>
+           
+        </form>
+        <
+      @*  <p class="message">@ViewData["Message"]</p>*@
+     
+    </body>
+</html>

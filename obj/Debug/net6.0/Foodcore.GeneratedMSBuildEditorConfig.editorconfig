@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Foodcore
+build_property.RootNamespace = Foodcore
+build_property.ProjectDir = G:\netcore1\Foodcore\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\netcore1\Foodcore
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/netcore1/Foodcore/Views/Home/addfeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRmZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/addproducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRwcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/Addtocart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGR0b2NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/admindisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pbmRpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/cartlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXJ0bGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/contactus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YWN0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/deleteproduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZWxldGVwcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/electronics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbGVjdHJvbmljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/fashion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmYXNoaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/kitchen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxraXRjaGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/myorders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxteW9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Home/RegisterPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RlclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/netcore1/Foodcore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-h5dmfy0g69

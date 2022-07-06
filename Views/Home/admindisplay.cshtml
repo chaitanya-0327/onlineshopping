@@ -1,0 +1,38 @@
+﻿
+@model IEnumerable<Foodcore.Models.Product>
+
+
+    <html>
+     <body>
+
+          <a asp-action="addproducts"   class="btn btn-info"   height=5% width=10%>addproducts</a  >
+     </body>
+ </html>
+
+
+<div class="row">
+
+    
+ @foreach(var item in Model)
+{
+    <div class="col-sm-4">   
+
+        <div class="card">
+  <img src="~/@item.Images" width=40% height=30%>
+  <div class="container">
+ <h4> @item.Productname</h4>
+<p ><span class="place">product id</span> : @item.Productid</p>
+ 
+ <p ><span class="place">price</span> : @item.Price</p>
+  <p ><span class="place">product description</span> : @item.Productdesc</p>
+ 
+  <a asp-action="deleteproducts"  asp-route-myitemid=@item.Productid class="btn btn-info">deleteproduct</a>
+
+ 
+</div>         
+  </div>
+   </div>
+}
+         
+ </div>
+ 

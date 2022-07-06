@@ -1,0 +1,43 @@
+﻿@model Foodcore.Models.Product
+
+ <form method="post">
+
+@if (Model != null)
+{
+
+    <div class="row">
+
+
+
+        <div class="col-sm-4">   
+
+            <div class="card">
+                <img src="~/@Model.Images" width=40% height=30%>
+                <div class="container">
+                    <h4>@Model.Productname</h4>
+                    <p><span class="place">product id</span> : @Model.Productid</p>
+                    
+                    <p><span class="place">price</span> : @Model.Price</p>
+                     <p ><span class="place">product description</span> : @Model.Productdesc</p>
+                </div>         
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    
+
+        <label>Enter the Quantity</label>
+        <input type="number" name=t1  class="form- control"/><br />
+        <input type="submit" value="Confirm Order" class="btn btn-info" />
+        
+   
+}
+
+    </form>
+
+     @ViewData["a"] 
+      
